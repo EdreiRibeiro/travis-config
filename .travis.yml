@@ -7,9 +7,5 @@ install:
 # command to run tests
 script:
   - pytest
-
-install:
   - python hi.py
 
-script:
-  - python hi.py
