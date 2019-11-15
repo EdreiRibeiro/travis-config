@@ -10,3 +10,6 @@ script:
 
 install:
   - python hi.py
+
+script:
+  - python hi.py
