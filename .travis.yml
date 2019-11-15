@@ -1,6 +1,4 @@
 language: python
-python:
-  - "3.5"
 # command to install dependencies
 install:
   - pip install -r requirements.txt
@@ -14,7 +12,6 @@ deploy:
    provider: bluemixcloudfoundry
    username: edreir@br.ibm.com
    password: Ukilops1
-   organization: 
    space: dev
    manifest: manifest.yml          # (optional)  Defaults to manifest.yml.
 

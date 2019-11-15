@@ -5,3 +5,4 @@ ibmcloudenv
 livereload
 cloudant
 xmltodict
+pytest
