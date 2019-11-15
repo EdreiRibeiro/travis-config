@@ -9,3 +9,12 @@ script:
   - pytest
   - python hi.py
 
+deploy:
+   edge: true
+   provider: bluemixcloudfoundry
+   username: edreir@br.ibm.com
+   password: Ukilops1
+   organization: 
+   space: dev
+   manifest: manifest.yml          # (optional)  Defaults to manifest.yml.
+
